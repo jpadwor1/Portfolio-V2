@@ -7,8 +7,8 @@ import GitHubIcon from '../../assets/Icons/GitHub2.svg'
 function ProjectCard(props) {
   return (
     <div className="project-content">
-            <a id={`project-image-container-${props.class}`} href={props.ProjectLink} rel="noopener noreferrer" target="_blank">
-            <div className={`project-image-container-${props.class}`}></div>
+            <a id={`project-image-container-${props.className}`} href={props.ProjectLink} rel="noopener noreferrer" target="_blank">
+            <div className={`project-image-container-${props.className}`}></div>
             </a>
 
             <div className={`project-wrapper-${props.className}`}>    

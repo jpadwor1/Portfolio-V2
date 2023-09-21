@@ -9,7 +9,6 @@ function Projects() {
         <h2 className="project-heading">PROJECTS</h2>
         
         <ProjectCard 
-            class="project-image-container-right"
             className="right"
             ProjectLink="https://jpadwor1.github.io/selftaughtdev/" 
             ProjectRepo="https://github.com/jpadwor1/Simple-Projects/tree/main/selftaught-static"
@@ -19,7 +18,6 @@ function Projects() {
             that fit their needs."/> 
 
         <ProjectCard 
-            class="left"
             className="left"
             ProjectLink="https://jpadwor1.github.io/selftaughtdev/" 
             ProjectRepo="https://github.com/jpadwor1/Simple-Projects/tree/main/selftaught-static"

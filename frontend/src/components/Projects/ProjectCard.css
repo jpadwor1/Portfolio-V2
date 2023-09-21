@@ -37,7 +37,8 @@
     transition: all 0.250s;
 }
 
-.project-image-container::before {
+.project-image-container-right::before,
+.project-image-container-left::before {
     content: '';
     width: 500px;
     height: 400px;
@@ -50,7 +51,8 @@
     6px 6px 10px 2px rgba(0, 0, 0, .5);
 }
 
-.project-image-container:hover {
+.project-image-container-right:hover,
+.project-image-container-left:hover {
     opacity: 1;
 }
 
