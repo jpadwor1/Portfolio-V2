@@ -1,0 +1,120 @@
+.project-content {
+    vertical-align: middle;
+}
+
+.project-title {
+    display: inline-block;
+    max-width: fit-content;
+    font-size: 2em;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.project-image {
+    display: inline-block;
+}
+
+.project-image-container-right {
+    width: 500px;
+    height: 400px;
+    background-image: url(../../assets/Images/SelfTaughDev.png);
+    background-size: cover;
+    position: absolute;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    transition: all 0.250s;
+}
+
+.project-image-container-left {
+    width: 500px;
+    height: 400px;
+    background-image: url(../../assets/Images/SelfTaughDev.png);
+    background-size: cover;
+    position: absolute;
+    right: 10%;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    transition: all 0.250s;
+}
+
+.project-image-container::before {
+    content: '';
+    width: 500px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: 
+    -5px -5px 14px 1px rgba(255, 255, 255, 0.05),
+    6px 6px 10px 2px rgba(0, 0, 0, .5);
+}
+
+.project-image-container:hover {
+    opacity: 1;
+}
+
+.project-summary {
+    background-color: rgb(17, 34, 64);
+    color: rgb(126, 130, 130);
+    padding: 1% 1%;
+    line-height: 1.6;
+}
+
+.project-tech-right {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.project-tech-left {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.project-tech-right img,
+.project-tech-left img {
+    display: inline-block;
+    height: 40px;
+    margin-right: 2%;
+    transform: translateY(-3px);
+    padding: 0;
+    margin-top: 10px;
+}
+
+.project-tech-right img:hover,
+.project-tech-left img:hover {
+    opacity: 0.5;
+}
+
+.project-tech-right li svg,
+.project-tech-right li img,
+.project-tech-left li svg,
+.project-tech-left li img {
+    list-style: none;
+    display: inline-block;
+    margin: 5px 0 0 5px;
+
+}
+
+.project-tech-right li,
+.project-tech-left li {
+    opacity: 1;
+}
+
+.project-tag:hover {
+    border: 2px solid #ffbf38;
+}
+
+.project-tag {
+    list-style: none;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 6px;
+    margin: 0 5px 0 5px;
+    border: 2px solid transparent;
+    border-left: 2px solid #ffbf38;
+    margin-top: 0;
+
+}

@@ -1,0 +1,50 @@
+.project-section {
+    padding: 0 8% 0 8%;
+    text-align: left;
+}
+
+.project-content {
+    margin: 0;
+    padding: 2rem 0;
+    height: 500px;
+    text-align: left;
+
+}
+
+.project-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-weight: 700;
+    margin: 2rem auto;
+    color: rgb(255,255,255);
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
+}
+
+.project-heading::after {
+    position: relative;
+    top: 5px;
+    content: '';
+    width: 40%;
+    height: 2px;
+    margin-left: 20px;
+    background: rgba(100, 107, 112, 0.5);
+    transition: width .7s ease-in;
+  }
+
+.project-wrapper-right {
+    display: inline-block;
+    position: relative;
+    text-align: right;
+    max-width: 60%;
+    transform: translate(50%, 30%);
+}
+
+.project-wrapper-left {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    max-width: 60%;
+    transform: translate(10%, 30%);
+}

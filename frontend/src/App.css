@@ -1,0 +1,41 @@
+body {
+    background-color: #e3edf7;
+    font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+    color: rgb(126, 130, 130);
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 1em;
+    font-weight: 100;
+    font-family: 'Space Mono', Arial, Helvetica, sans-serif;
+    color: rgb(255, 178, 56);
+  }
+  
+  h2 {
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    width: 100%;
+  }
+  
+  h2, h3 {
+    font-size: clamp(20px, 5vw, 60px);
+    margin: 0;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+  }
