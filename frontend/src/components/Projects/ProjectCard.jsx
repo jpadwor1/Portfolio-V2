@@ -1,6 +1,5 @@
 import React from 'react'
 import './ProjectCard.css'
-import LinkIcon from '../../assets/Icons/link.png'
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import GitHubIcon from '../../assets/Icons/GitHub2.svg'
 
@@ -8,7 +7,9 @@ function ProjectCard(props) {
   return (
     <div className="project-content">
             <a id={`project-image-container-${props.className}`} href={props.ProjectLink} rel="noopener noreferrer" target="_blank">
-            <div className={`project-image-container-${props.className}`}></div>
+            <div className={`project-image-container-${props.className}`}>
+                <img className={`project-image-container-${props.className}`} src= {props.ProjectImage} alt={props.ProjectTitle} />
+            </div>
             </a>
 
             <div className={`project-wrapper-${props.className}`}>    
@@ -39,9 +40,11 @@ function ProjectCard(props) {
                                 />
                             </a>
                         </li>
-                        <li className='project-tag'>Liquid</li>
-                        <li className='project-tag'>CSS</li>
-                        <li className='project-tag'>HTML</li>
+                     {props.ProjectTags.map((tags) => (
+                        <li className="project-tag">{tags}</li>
+                     ))}
+
+                        
                     </ul>
                 </div>       
         </div>

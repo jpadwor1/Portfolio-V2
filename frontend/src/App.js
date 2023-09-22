@@ -5,6 +5,7 @@ import Spacer from './components/Spacer/Spacer'
 import About from './components/About/About'
 import Layout from './components/Layout/Layout'
 import Projects from './components/Projects/Projects'
+import ContactForm from './components/Contact/ContactForm'
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
         <About />
         <Spacer className="bottom-layer spacer"/>
         <Projects />
+        <Spacer className="top-layer spacer"/>
+        <ContactForm />
       </Layout>
     </div>
   );

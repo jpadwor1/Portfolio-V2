@@ -1,0 +1,123 @@
+.contact-section {
+    background-color: #e3edf7;
+    background-image: #e3edf7;
+    -webkit-clip-path: polygon(0 0,100% 0,100% 100%,0 100%);
+    clip-path: polygon(0 0,100% 0,100% 100%,0 100%);
+    padding: 0 5% 0 5%;
+    text-align: center;
+    height: 680px;
+}
+
+.contact-heading {
+    font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+    color: rgb(10, 25, 47);
+    font-size: 3em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.contact-subheading {
+    color: rgb(126, 130, 130);
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.contact-wrapper,
+form {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.input-container {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-btn {
+    height: 40px;
+    width: 25%;
+    margin-top: 20px;
+    padding: 9px 16px;
+    border-radius: 1em;
+    background: rgb(169, 188, 217);
+    border: 1px solid rgb(169,188,217);
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+    transition: all 0.40s ease;
+}
+
+.form-btn:hover {
+    background: transparent;
+    color: rgb(10, 25, 47);
+    border: 1px solid rgb(10, 25, 47);
+    
+}
+
+.message-input {
+    height: 75%;
+    width: 50%;
+    border-radius: .75em;
+    padding: 1.25em 1em;
+    background: transparent;
+    border: 1px solid rgb(10, 25, 47);
+    font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: rgb(10, 25, 47);
+    font-weight: 700;
+    
+}
+
+.name-input,
+.email-input {
+    border: 1px solid rgb(10, 25, 47);
+    border-radius: .5em;
+    height: 40px;
+    width:50%;
+    padding: 1.25em 1em;
+    background: transparent;
+    margin-bottom: 20px;
+    font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: rgb(10, 25, 47);
+    font-weight: 700;
+
+}
+
+.name-input:hover,
+.email-input:hover,
+.message-input:hover {
+    box-shadow: inset 0 0 5px rgb(169, 188, 217);
+}
+
+.name-input:focus,
+.email-input:focus {
+    box-shadow: inset 0 0 5px rgb(169, 188, 217);
+    border: 1px solid rgb(10, 25, 47)   ;
+}
+
+.name-input::placeholder,
+.email-input::placeholder,
+.message-input::placeholder {
+    font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: rgb(10, 25, 47);
+    font-weight: 700;
+}
+
+.name-input:active,
+.email-input:active,
+.message-input:active {
+    outline: none;
+} 
+

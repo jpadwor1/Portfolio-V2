@@ -11,7 +11,6 @@ import Divider from "@mui/material/Divider";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemText from "@mui/material/ListItemText";
 import { styled } from "@mui/material"; 
-import Button from "@mui/material/Button";
 import Logo from '../../assets/Icons/JP Logo No BG.png';
 import GitHubLogo from '../../assets/Icons/GitGreen.svg';
 import LinkedInLogo from '../../assets/Icons/LinkedIn Green.svg';
