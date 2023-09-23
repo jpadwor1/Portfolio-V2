@@ -19,6 +19,7 @@ function App() {
         <Projects />
         <Spacer className="top-layer spacer"/>
         <ContactForm />
+        <Spacer className="bottom-layer spacer"/>
       </Layout>
     </div>
   );

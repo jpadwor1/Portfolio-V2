@@ -121,3 +121,10 @@ form {
     outline: none;
 } 
 
+.form-status {
+    color: rgb(255, 178, 56);
+}
+
+.is-invalid {
+    border: 1px solid crimson;
+}
