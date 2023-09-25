@@ -1,14 +1,7 @@
 .project-section {
     padding: 0 8% 0 8%;
     text-align: left;
-}
-
-.project-content {
-    margin: 0;
-    padding: 2rem 0;
-    height: 500px;
-    text-align: left;
-
+    height: fit-content;
 }
 
 .project-heading {

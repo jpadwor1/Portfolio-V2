@@ -20,7 +20,7 @@ function ContactForm() {
   });
 
   return (
-    <section className="contact-section">
+    <section id='contact' className="contact-section">
       <h2 className="contact-heading">Contact</h2>
       <p className="contact-subheading">Fill out the form below to send me a message.</p>
 

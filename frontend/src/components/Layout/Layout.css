@@ -1,8 +1,11 @@
 .outer {
-    margin: auto;
+    margin: 0;
     background-color: rgb(10, 25, 47);
     max-width: none;
     min-width: none;
+    width: 100vw;
+    border: none;
+
 }
 
 .inner {
@@ -10,4 +13,6 @@
     max-width: 1248px;
     min-width: none;
     overflow: hidden;
+    border: none;
+    
 }

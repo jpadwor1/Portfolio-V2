@@ -6,7 +6,7 @@ import Hydroponics from '../../assets/Images/Hydroponics.png'
 
 function Projects() {
   return (
-    <section className="project-section">
+    <section id='Projects' className="project-section">
         <h2 className="project-heading">PROJECTS</h2>
         
         <ProjectCard 

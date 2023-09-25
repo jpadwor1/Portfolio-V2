@@ -21,6 +21,7 @@ function ProjectCard(props) {
                         {props.ProjectDescription}
                     </p>
                     <ul className={`project-tech-${props.className}`}>
+                        {/* <div className="external-project-link"> */}
                         <li>
                             <a href={props.ProjectRepo} rel="noopener noreferrer" target="_blank">
                                 <img src={GitHubIcon} alt="Link"/>
@@ -40,6 +41,7 @@ function ProjectCard(props) {
                                 />
                             </a>
                         </li>
+                        {/* </div> */}
                      {props.ProjectTags.map((tags) => (
                         <li className="project-tag">{tags}</li>
                      ))}

@@ -1,5 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-    background-color: #e3edf7;
+    background-color: rgb(10, 25, 47);
     font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
     color: rgb(126, 130, 130);
     width: 100%;

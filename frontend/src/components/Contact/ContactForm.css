@@ -128,3 +128,76 @@ form {
 .is-invalid {
     border: 1px solid crimson;
 }
+
+@media screen and (max-width: 768px) {
+    .contact-section {
+        height: 100%;
+    }
+
+    .contact-wrapper {
+        height: 100%;
+    }
+
+    .contact-heading {
+        font-size: 2.5em;
+    }
+
+    .contact-subheading {
+        font-size: 1.25em;
+    }
+
+    .input-container {
+        width: 100%;
+    }
+
+    .name-input,
+    .email-input {
+        width: 100%;
+    }
+
+    .message-input {
+        width: 100%;
+    }
+
+    .form-btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .contact-section {
+        height: 100%;
+    }
+
+    .contact-wrapper {
+        height: 100%;
+    }
+
+    .contact-heading {
+        font-size: 2.5em;
+    }
+
+    .contact-subheading {
+        font-size: 1.25em;
+    }
+
+    .input-container {
+        width: 100%;
+    }
+
+    .name-input,
+    .email-input {
+        width: 100%;
+    }
+
+    .message-input {
+        width: 100%;
+    }
+
+    .form-btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+    

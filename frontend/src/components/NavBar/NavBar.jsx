@@ -55,7 +55,7 @@ export default function NavBar() {
     <AppBar 
     sx={{
     backgroundColor: "rgb(10, 25, 47)"}}
-    position="static">
+    position="fixed">
       <Container maxWidth="lg" >
         <Toolbar
         sx={{
@@ -83,7 +83,7 @@ export default function NavBar() {
                     </a>
                 </li>
                 <li className="nav-item">
-                    <a href="https://drive.google.com/uc?id=1zvXARInOC--UAYHf68gmx5sNzIWFLtkZ&export=download" target="_blank" rel="noreferrer">   
+                    <a href="https://drive.google.com/uc?id=1MxdFOnG4LykUKjH47En3Xau9MFASh6xG&export=download" target="_blank" rel="noreferrer">   
                         <img className="nav-link" src={ResumeLogo} alt="Resume"/>
                     </a>
                 </li>
@@ -96,7 +96,7 @@ export default function NavBar() {
               aria-label="open drawer" 
               onClick={toggleDrawer(true)}
               sx={{ 
-                color: "rgb(1, 245, 220)",
+                color: "#ffbf38",
                 alignSelf: "right",
                 mr: 0,
                 display: {
@@ -144,7 +144,7 @@ export default function NavBar() {
                     color:"rgb(126, 130, 130)", 
                     m: 2,
                     '&:hover': {
-                      color: "rgb(1, 245, 220)",
+                      color: "#ffbf38",
                     }
                     }}>
                     <CloseIcon  />
@@ -174,11 +174,13 @@ export default function NavBar() {
                     </ul>
 
                   <div className="drawer-link-container">
-                    <ListItemButton href="#about" >
+                    <ListItemButton
+                    onClick={toggleDrawer(false)}
+                    href="#about" >
                         <ArrowOutwardIcon
                         sx={{
                           mr: 1,
-                          color:"rgb(1, 245, 220)"
+                          color:"#ffbf38"
                          }} />
                       <ListItemText 
                       sx={{
@@ -191,10 +193,12 @@ export default function NavBar() {
                       />
                     </ListItemButton>
                     
-                    <ListItemButton>
+                    <ListItemButton
+                    onClick={toggleDrawer(false)}
+                    href='#experience'>
                         <ArrowOutwardIcon
                         sx={{
-                          color:"rgb(1, 245, 220)",
+                          color:"#ffbf38",
                           mr: 1,
                         }}
                         />
@@ -209,10 +213,12 @@ export default function NavBar() {
                       />
                     </ListItemButton>
 
-                    <ListItemButton href="#Projects">
+                    <ListItemButton 
+                    onClick={toggleDrawer(false)}
+                    href="#Projects">
                         <ArrowOutwardIcon
                         sx={{
-                          color:"rgb(1, 245, 220)",
+                          color:"#ffbf38",
                           mr: 1,
                         }}
                         />
@@ -227,10 +233,12 @@ export default function NavBar() {
                       />
                     </ListItemButton>
 
-                    <ListItemButton>
+                    <ListItemButton 
+                    onClick={toggleDrawer(false)}
+                    href="#contact">
                         <ArrowOutwardIcon
                         sx={{
-                          color:"rgb(1, 245, 220)",
+                          color:"#ffbf38",
                           mr: 1,
                         }}
                         />
