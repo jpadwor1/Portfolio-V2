@@ -167,7 +167,7 @@ export default function NavBar() {
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a href="https://drive.google.com/uc?id=1zvXARInOC--UAYHf68gmx5sNzIWFLtkZ&export=download" target="_blank" rel="noreferrer">   
+                        <a href="https://drive.google.com/uc?id=1MxdFOnG4LykUKjH47En3Xau9MFASh6xG&export=download" target="_blank" rel="noreferrer">   
                           <img className="nav-link" src={ResumeLogo} alt="Resume"/>
                         </a>
                       </li>
