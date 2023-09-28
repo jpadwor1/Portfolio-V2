@@ -192,26 +192,6 @@ export default function NavBar() {
                       primary="About"
                       />
                     </ListItemButton>
-                    
-                    <ListItemButton
-                    onClick={toggleDrawer(false)}
-                    href='#experience'>
-                        <ArrowOutwardIcon
-                        sx={{
-                          color:"#ffbf38",
-                          mr: 1,
-                        }}
-                        />
-                      <ListItemText
-                       sx={{
-                        color:"rgb(126, 130, 130)",
-                        '&:hover': {
-                          color: "#fcfcfc", 
-                        },
-                        }}
-                        primary="Experience" 
-                      />
-                    </ListItemButton>
 
                     <ListItemButton 
                     onClick={toggleDrawer(false)}
