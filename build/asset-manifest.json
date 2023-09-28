@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.93a3ff46.css",
+    "main.js": "/static/js/main.ce2664fa.js",
+    "static/media/trailHead.png": "/static/media/trailHead.62a6972741dc083948fd.png",
+    "static/media/Hydroponics.png": "/static/media/Hydroponics.9cd38fced65013ae7f3b.png",
+    "static/media/SelfTaughDev.png": "/static/media/SelfTaughDev.2bc219d109767bfc6a36.png",
+    "static/media/headShot.jpg": "/static/media/headShot.91df33fa8b81fe8582cc.jpg",
+    "static/media/JP Logo No BG.png": "/static/media/JP Logo No BG.2b4b92bec0a65a25e5fb.png",
+    "static/media/GitHub2.svg": "/static/media/GitHub2.ba625767ec261ca2d525698fa268c115.svg",
+    "static/media/peaks-bottom.svg": "/static/media/peaks-bottom.04a9e3b9c7e14752334c.svg",
+    "static/media/peaks-top.svg": "/static/media/peaks-top.304230e0c3805e1b7835.svg",
+    "static/media/GitGreen.svg": "/static/media/GitGreen.be3592ac2d49ca6ef5153c94e1cb0e1f.svg",
+    "index.html": "/index.html",
+    "static/media/LinkedIn Green.svg": "/static/media/LinkedIn Green.f1596b93b11319ce9bcea7d1affd17ca.svg",
+    "static/media/Document.svg": "/static/media/Document.dd553bc7501b84d700909bd3c402fccb.svg",
+    "main.93a3ff46.css.map": "/static/css/main.93a3ff46.css.map",
+    "main.ce2664fa.js.map": "/static/js/main.ce2664fa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93a3ff46.css",
+    "static/js/main.ce2664fa.js"
+  ]
+}
