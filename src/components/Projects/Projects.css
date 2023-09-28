@@ -2,6 +2,7 @@
     padding: 0 8% 0 8%;
     text-align: left;
     height: fit-content;
+    margin-top: -5px;
 }
 
 .project-heading {
@@ -26,18 +27,10 @@
     transition: width .7s ease-in;
   }
 
-.project-wrapper-right {
-    display: inline-block;
-    position: relative;
-    text-align: right;
-    max-width: 60%;
-    transform: translate(50%, 30%);
+@media screen and (max-width: 768px) {
+    .project-heading::after {
+        margin-left: 0;
+        width: 100%;
+    }
 }
-
-.project-wrapper-left {
-    display: inline-block;
-    position: relative;
-    text-align: left;
-    max-width: 60%;
-    transform: translate(10%, 30%);
-}
+    

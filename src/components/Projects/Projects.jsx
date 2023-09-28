@@ -3,21 +3,20 @@ import './Projects.css'
 import ProjectCard from './ProjectCard'
 import SelfTaughtDevImage from '../../assets/Images/SelfTaughDev.png'
 import Hydroponics from '../../assets/Images/Hydroponics.png'
-
+import TrailHead from '../../assets/Images/trailHead.png'
 function Projects() {
   return (
     <section id='Projects' className="project-section">
-        <h2 className="project-heading">PROJECTS</h2>
+        <h2 className="project-heading">FEATURED PROJECTS</h2>
         
         <ProjectCard 
             className="right"
-            ProjectLink="https://jpadwor1.github.io/selftaughtdev/" 
-            ProjectRepo="https://github.com/jpadwor1/Simple-Projects/tree/main/selftaught-static"
-            ProjectImage={SelfTaughtDevImage} 
-            ProjectTitle="SelfTaughtDev/" 
-            ProjectDescription="A website I created to cut through the junk online courses for web development. A simple guide for self-taught developers to find courses from all around the web
-            that fit their needs."
-            ProjectTags={["HTML", "CSS", "BootSttrap", "Javascript"]}
+            ProjectLink="https://trailhead.io" 
+            ProjectRepo="https://github.com/jpadwor1/TrailHead-App"
+            ProjectImage={TrailHead} 
+            ProjectTitle="TrailHead.io" 
+            ProjectDescription="TrailHead is a platform designed to help outdoor enthusiasts discover and explore trails for various activities such as hiking, mountain biking, running, and more. The website provides detailed information about trails, including reviews, ratings, and user experiences, allowing users to pick the right trail for their adventure."
+            ProjectTags={["ReactJS", "NodeJS", "ExpressJS", "MongoDB"]}
             /> 
 
         <ProjectCard 
@@ -39,7 +38,7 @@ function Projects() {
             ProjectTitle="SelfTaughtDev/" 
             ProjectDescription="A website I created to cut through the junk online courses for web development. A simple guide for self-taught developers to find courses from all around the web
             that fit their needs."
-            ProjectTags={["HTML", "CSS"]}
+            ProjectTags={["HTML", "CSS", "BootStrap", "Javascript"]}
             /> 
         
     </section>

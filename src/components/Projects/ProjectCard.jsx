@@ -5,10 +5,10 @@ import GitHubIcon from '../../assets/Icons/GitHub2.svg'
 
 function ProjectCard(props) {
   return (
-    <div className="project-content">
+    <div className={`project-content-${props.className}`}>
             <a id={`project-image-container-${props.className}`} href={props.ProjectLink} rel="noopener noreferrer" target="_blank">
-            <div className={`project-image-container-${props.className}`}>
-                <img className={`project-image-container-${props.className}`} src= {props.ProjectImage} alt={props.ProjectTitle} />
+            <div className={`project-image-container`}>
+                <img className={`project-image`} src= {props.ProjectImage} alt={props.ProjectTitle} />
             </div>
             </a>
 

@@ -12,8 +12,12 @@
 
 .top-layer {
     background-image: url(../../assets/Images/peaks-top.svg);
+    background-color: rgb(10, 25, 47);
+    margin-bottom: -2px;
 }
 
 .bottom-layer {
     background-image:url(../../assets/Images/peaks-bottom.svg);
+    margin-top: -2px;
+    margin-bottom: -2px;
 }
