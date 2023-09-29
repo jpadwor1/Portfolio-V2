@@ -1,5 +1,5 @@
 # Personal Website
-[Portfolio GIF](https://github.com/jpadwor1/Giphy/blob/main/PortfolioV2.gif)
+![Portfolio GIF](https://github.com/jpadwor1/Giphy/blob/main/PortfolioV2.gif)
 
 See: [johnpadworski.dev](https://johnpadworski.dev).
 
