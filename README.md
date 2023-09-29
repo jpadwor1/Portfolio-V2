@@ -1,5 +1,5 @@
-[](https://github.com/jpadwor1/Giphy/blob/main/PortfolioV2.mp4)
 # Personal Website
+[](https://github.com/jpadwor1/Giphy/blob/main/PortfolioV2.gif)
 
 See: [johnpadworski.dev](https://johnpadworski.dev).
 
