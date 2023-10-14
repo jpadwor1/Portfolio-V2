@@ -16,7 +16,7 @@ function Projects() {
         ProjectImage={TrailHead}
         ProjectTitle="TrailHead.io"
         ProjectDescription="TrailHead is a platform designed to help outdoor enthusiasts discover and explore trails for various activities such as hiking, mountain biking, running, and more. The website provides detailed information about trails, including reviews, ratings, and user experiences, allowing users to pick the right trail for their adventure."
-        ProjectTags={["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "REST API"]}
+        ProjectTags={["React", "Node", "Express", "MongoDB", "REST API"]}
       />
 
       <ProjectCard

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.93a3ff46.css",
-    "main.js": "/static/js/main.ed5346fd.js",
+    "main.js": "/static/js/main.bb697248.js",
     "static/media/trailHead.png": "/static/media/trailHead.62a6972741dc083948fd.png",
     "static/media/Hydroponics.png": "/static/media/Hydroponics.9cd38fced65013ae7f3b.png",
     "static/media/SelfTaughDev.png": "/static/media/SelfTaughDev.2bc219d109767bfc6a36.png",
@@ -15,10 +15,10 @@
     "static/media/LinkedIn Green.svg": "/static/media/LinkedIn Green.f1596b93b11319ce9bcea7d1affd17ca.svg",
     "static/media/Document.svg": "/static/media/Document.dd553bc7501b84d700909bd3c402fccb.svg",
     "main.93a3ff46.css.map": "/static/css/main.93a3ff46.css.map",
-    "main.ed5346fd.js.map": "/static/js/main.ed5346fd.js.map"
+    "main.bb697248.js.map": "/static/js/main.bb697248.js.map"
   },
   "entrypoints": [
     "static/css/main.93a3ff46.css",
-    "static/js/main.ed5346fd.js"
+    "static/js/main.bb697248.js"
   ]
 }
