@@ -4,10 +4,24 @@ import ProjectCard from "./ProjectCard";
 import SelfTaughtDevImage from "../../assets/Images/SelfTaughDev.png";
 import Hydroponics from "../../assets/Images/Hydroponics.png";
 import TrailHead from "../../assets/Images/trailHead.png";
+import { motion } from "framer-motion";
+import { useRef } from "react";
+import { useInView } from "framer-motion";
+
 function Projects() {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
+
   return (
     <section id="Projects" className="project-section">
-      <h2 className="project-heading">FEATURED PROJECTS</h2>
+      <motion.h2 ref={ref}
+      style={{
+        transform: isInView ? "none" : "translateX(-200px)",
+        opacity: isInView ? 1 : 0,
+        transition: "all 1s cubic-bezier(0.17, 0.55, 0.55, 1) 1s",
+      }}
+
+      className="project-heading">FEATURED PROJECTS</motion.h2>
 
       <ProjectCard
         className="right"
