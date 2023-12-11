@@ -18,7 +18,7 @@ const animationVariants = {
 };
 
 function About() {
-  const techItems = ["Python", "HTML / CSS", "React", "NodeJS", "SQL", "NoSQL"];
+  const techItems = ["TypeScript", "NextJS", "React", "NodeJS", "SQL", "NoSQL"];
   return (
     <section className="about-section">
       <motion.h2
