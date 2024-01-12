@@ -1,9 +1,9 @@
 import React from 'react';
 import './Projects.css';
 import ProjectCard from './ProjectCard';
-import SelfTaughtDevImage from '../../assets/Images/SelfTaughDev.png';
 import Summar from '../../assets/Images/summar-preview.png';
 import TrailHead from '../../assets/Images/trailHead.png';
+import AlwaysClean from '../../assets/Images/alwaysclean.png';
 import { motion } from 'framer-motion';
 import { useRef } from 'react';
 import { useInView } from 'framer-motion';
@@ -39,22 +39,21 @@ function Projects() {
 
       <ProjectCard
         className='left'
+        ProjectLink='https://genuine-hamster-b2f8ae.netlify.app/'
+        ProjectRepo='https://github.com/jpadwor1/TrailHead-App'
+        ProjectImage={AlwaysClean}
+        ProjectTitle='Always Clean'
+        ProjectDescription='Always Clean Pool Service is custom CRM built for a local pool service company. The application allows the company to manage their customers, schedule services, and track their inventory. The application also allows customers to login and view their service history, make payments, and request services.'
+        ProjectTags={['Typescript', 'NextJS', 'Prisma', 'Stripe', 'CronJobs']}
+      />
+      <ProjectCard
+        className='right'
         ProjectLink='https://spectacular-gingersnap-720705.netlify.app'
         ProjectRepo='https://github.com/jpadwor1/TrailHead-App'
         ProjectImage={TrailHead}
         ProjectTitle='TrailHead.io'
         ProjectDescription='TrailHead is a platform designed to help outdoor enthusiasts discover and explore trails for various activities such as hiking, mountain biking, running, and more. The website provides detailed information about trails, including reviews, ratings, and user experiences, allowing users to pick the right trail for their adventure.'
         ProjectTags={['React', 'Node', 'Express', 'MongoDB', 'REST API']}
-      />
-      <ProjectCard
-        className='right'
-        ProjectLink='https://jpadwor1.github.io/selftaughtdev/'
-        ProjectRepo='https://github.com/jpadwor1/Simple-Projects/tree/main/selftaught-static'
-        ProjectImage={SelfTaughtDevImage}
-        ProjectTitle='SelfTaughtDev/'
-        ProjectDescription='A website I created to cut through the junk online courses for web development. A simple guide for self-taught developers to find courses from all around the web
-            that fit their needs.'
-        ProjectTags={['HTML', 'CSS', 'BootStrap', 'Javascript']}
       />
     </section>
   );
