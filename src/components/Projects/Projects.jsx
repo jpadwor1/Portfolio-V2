@@ -40,7 +40,7 @@ function Projects() {
       <ProjectCard
         className='left'
         ProjectLink='https://genuine-hamster-b2f8ae.netlify.app/'
-        ProjectRepo='https://github.com/jpadwor1/TrailHead-App'
+        ProjectRepo='https://github.com/jpadwor1/always_clean'
         ProjectImage={AlwaysClean}
         ProjectTitle='Always Clean'
         ProjectDescription='Always Clean Pool Service is custom CRM built for a local pool service company. The application allows the company to manage their customers, schedule services, and track their inventory. The application also allows customers to login and view their service history, make payments, and request services.'

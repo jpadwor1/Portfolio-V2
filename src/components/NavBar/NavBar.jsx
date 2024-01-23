@@ -96,7 +96,7 @@ export default function NavBar() {
                 </li>
                 <li className='nav-item'>
                   <a
-                    href='https://drive.google.com/uc?id=13iQHQy0jjh1RWMNlYHNIjDaxL1O6lasR&export=download'
+                    href='https://drive.google.com/uc?id=1goOsOfPGTBG2thLKN2GcbLozshznrXKU&export=download'
                     target='_blank'
                     rel='noreferrer'
                   >
