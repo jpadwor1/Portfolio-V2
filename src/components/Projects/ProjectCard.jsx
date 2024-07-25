@@ -26,8 +26,8 @@ function ProjectCard(props) {
         <div className="project-summary">
           <p>{props.ProjectDescription}</p>
           <ul className={`project-tech-${props.className}`}>
-            {/* <div className="external-project-link"> */}
-            <li>
+            {props.ProjectRepo.length > 0 ? (
+              <li>
               <a
                 href={props.ProjectRepo}
                 rel="noopener noreferrer"
@@ -36,6 +36,8 @@ function ProjectCard(props) {
                 <img src={GitHubIcon} alt="Link" />
               </a>
             </li>
+            ):null}
+            
             <li>
               <a
                 href={props.ProjectLink}

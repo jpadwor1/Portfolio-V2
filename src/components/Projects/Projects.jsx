@@ -31,11 +31,11 @@ function Projects() {
       <ProjectCard
         className='left'
         ProjectLink='https://uncrewedwarriors.org'
-        ProjectRepo='https://github.com/jpadwor1/'
+        ProjectRepo=''
         ProjectImage={UncrewedWarriors}
         ProjectTitle='Uncrewed Warrior Foundation'
         ProjectDescription='UncrewedWarriorFoundation.org was created for Uncrewed Warrior Foundation a veteran non-profit organization. The organization needed a way to spread their message first and foremost but also handle donations, their monthly newsletter, and veterans that need their support. We built a full CRM Admin panel to manage all of these aspects with custom components.'
-        ProjectTags={['Typescript', 'NextJS', 'Prisma', 'Stripe', 'CronJobs']}
+        ProjectTags={['Typescript', 'NextJS', 'Prisma', 'Stripe']}
       />
 
       <ProjectCard
@@ -58,15 +58,7 @@ function Projects() {
         ProjectDescription='Always Clean Pool Service is custom CRM built for a local pool service company. The application allows the company to manage their customers, schedule services, and track their inventory. The application also allows customers to login and view their service history, make payments, and request services.'
         ProjectTags={['Typescript', 'NextJS', 'Prisma', 'Stripe', 'CronJobs']}
       />
-      <ProjectCard
-        className='right'
-        ProjectLink='https://spectacular-gingersnap-720705.netlify.app'
-        ProjectRepo='https://github.com/jpadwor1/TrailHead-App'
-        ProjectImage={TrailHead}
-        ProjectTitle='TrailHead.io'
-        ProjectDescription='TrailHead is a platform designed to help outdoor enthusiasts discover and explore trails for various activities such as hiking, mountain biking, running, and more. The website provides detailed information about trails, including reviews, ratings, and user experiences, allowing users to pick the right trail for their adventure.'
-        ProjectTags={['React', 'Node', 'Express', 'MongoDB', 'REST API']}
-      />
+      
     </section>
   );
 }
