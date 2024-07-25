@@ -4,6 +4,8 @@ import ProjectCard from './ProjectCard';
 import Summar from '../../assets/Images/summar-preview.png';
 import TrailHead from '../../assets/Images/trailHead.png';
 import AlwaysClean from '../../assets/Images/alwaysclean.png';
+import UncrewedWarriors from '../../assets/Images/uncrewedWarriors.png'
+
 import { motion } from 'framer-motion';
 import { useRef } from 'react';
 import { useInView } from 'framer-motion';
@@ -25,6 +27,16 @@ function Projects() {
       >
         FEATURED PROJECTS
       </motion.h2>
+
+      <ProjectCard
+        className='left'
+        ProjectLink='https://uncrewedwarriors.org'
+        ProjectRepo='https://github.com/jpadwor1/'
+        ProjectImage={UncrewedWarriors}
+        ProjectTitle='Uncrewed Warrior Foundation'
+        ProjectDescription='UncrewedWarriorFoundation.org was created for Uncrewed Warrior Foundation a veteran non-profit organization. The organization needed a way to spread their message first and foremost but also handle donations, their monthly newsletter, and veterans that need their support. We built a full CRM Admin panel to manage all of these aspects with custom components.'
+        ProjectTags={['Typescript', 'NextJS', 'Prisma', 'Stripe', 'CronJobs']}
+      />
 
       <ProjectCard
         className='right'
